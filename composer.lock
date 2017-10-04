@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "13cfb3bc05eb2b072364e315042f7a2b",
+    "packages": [
+        {
+            "name": "apache/thrift",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://git-wip-us.apache.org/repos/asf/thrift.git",
+                "reference": "39310dad793ca69b4b7217a3b54430e682e5e2a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://pkg.corp.anjuke.com/file/apache/thrift/39310dad793ca69b4b7217a3b54430e682e5e2a4.zip",
+                "reference": "39310dad793ca69b4b7217a3b54430e682e5e2a4",
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Thrift": "lib/php/lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Apache Thrift Developers",
+                    "email": "dev@thrift.apache.org",
+                    "homepage": "http://thrift.apache.org"
+                }
+            ],
+            "description": "Apache Thrift RPC system",
+            "homepage": "http://thrift.apache.org/",
+            "time": "2017-09-25T20:22:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "apache/thrift": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,12 @@
+{
+    "name": "robberphex/thrift_example",
+    "type": "project",
+    "require": {
+        "apache/thrift": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "gen-php/"
+        }
+    }
+}
